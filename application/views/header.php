@@ -13,7 +13,7 @@
         <header>
             <hgroup>
                 <h1>Mahasiswa UBSI Cengkareng</h1>
-                <h3>Jln.Cengkareng Timur-Jakarta Barat 11830</h3>
+                <b>Jln.Cengkareng Timur-Jakarta Barat 11830</b>
             </hgroup>
             <div class="clear"></div>
         </header>

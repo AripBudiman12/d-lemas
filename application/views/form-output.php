@@ -1,14 +1,8 @@
-<html>
-
-<head>
-    <title>Form Tampil Mahasiswa</title>
-</head>
-<body>
-    <center>
+<center>
         <table>
             <tr>
                 <th colspan="3">
-                    Form Tampil Mahasiswa
+                    <?php echo $judul2 ?>
                 </th>
             </tr>
             <tr>
@@ -57,12 +51,15 @@
                 <td><?= $agama; ?></td>
             </tr>
             <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
                 <td colspan="3" align="center">
                     <a href="<?= base_url('mahasiswa');?>">
                 Kembali</a>
                 </td>
             </tr>
         </table>
-    </center>
-</body>
-</html>
+</center>

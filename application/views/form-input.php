@@ -1,16 +1,10 @@
-<html>
-    <head>
-        <title>Form Input Mahasiswa</title>
-    </head>
-
-<body>
-    <center>
-        <form action="<?= base_url('mahasiswa/cetak'); ?>" 
+<center>
+    <form action="<?= base_url('mahasiswa/cetak'); ?>" 
         method="post">
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Mahasiswa
+                        <?php echo $judul1 ?>
                     </th>
                 </tr>
                 <tr>
@@ -83,12 +77,15 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                    <br>
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="3" align="center">
                         <input type="submit" value="Submit">
                     </td>
                 </tr>
             </table>    
-        </form>
-    </center>
-</body>
-</html>
+    </form>
+</center>
